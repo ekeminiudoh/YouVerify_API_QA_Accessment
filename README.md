@@ -81,7 +81,6 @@ You can run the tests using Maven and TestNG.
     * Edit testng.xml to add new test classes or groups.
       
 # Test Reporting
-Test reports are generated in the target/surefire-reports directory. You can use plugins like Allure or Surefire Report Plugin for more detailed reporting.
-
+Test reports are generated with aventstack extentreport in the reports directory. 
 # License
 This project is open-source 
