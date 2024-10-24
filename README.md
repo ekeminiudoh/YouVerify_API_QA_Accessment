@@ -21,14 +21,20 @@ src
     │     │   └── RegressionTest.java
     │     ├── utils
     │     │   └── TestUtils.java
-    │  
+    │     │   └── extentReports
+    │     │        └── ExtentManager.java
+    │     │        └── ExtentTestManager.java
+    │     │   └── listeners
+    │     │        └── AnnotationTransformer.java
+    │     │        └── Retry.java
+    │     │        └── TestListener.java
 └── testng.xml
 * base: Contains the base setup and teardown logic for the tests.
 * smoke: Quick tests to verify the essential functionality.
 * functional: Tests to validate specific functionalities.
 * performance: Tests for assessing response time and performance.
 * regression: Tests to ensure that changes don’t break existing functionality.
-* utils: Utility classes for common reusable methods.
+* utils: Utility classes for common reusable methods, listeners and extent report configurations.
 
 # Prerequisites
 * Java 8 or higher
