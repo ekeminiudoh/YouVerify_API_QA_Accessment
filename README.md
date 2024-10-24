@@ -10,7 +10,7 @@ src
     ├── java
     │   
     │     ├── base
-    │     │   └── BaseTest.java
+    │     │   └── TestBase.java
     │     ├── smoke
     │     │   └── SmokeTest.java
     │     ├── functional
@@ -29,6 +29,7 @@ src
     │     │        └── Retry.java
     │     │        └── TestListener.java
 └── testng.xml
+
 * base: Contains the base setup and teardown logic for the tests.
 * smoke: Quick tests to verify the essential functionality.
 * functional: Tests to validate specific functionalities.
