@@ -11,31 +11,22 @@ src
     │   
     │     ├── base
     │     │   └── TestBase.java
-    │     ├── smoke
-    │     │   └── SmokeTest.java
-    │     ├── functional
-    │     │   └── FunctionalTest.java
-    │     ├── performance
-    │     │   └── PerformanceTest.java
-    │     ├── regression
-    │     │   └── RegressionTest.java
-    │     ├── utils
-    │     │   └── TestUtils.java
-    │     │   └── extentReports
-    │     │        └── ExtentManager.java
-    │     │        └── ExtentTestManager.java
-    │     │   └── listeners
-    │     │        └── AnnotationTransformer.java
-    │     │        └── Retry.java
-    │     │        └── TestListener.java
+    │     ├── client
+    │     │   └── ApiClient.java
+    │     ├── payload
+    │     │   └── ApiPayload.java
+    │     ├── test
+    │     │   └── ApiTest.java
+    ├── resources
+    │     └── log4j2.xml
+    │     └── testNG.xml
 └── testng.xml
 
 * base: Contains the base setup and teardown logic for the tests.
-* smoke: Quick tests to verify the essential functionality.
-* functional: Tests to validate specific functionalities.
-* performance: Tests for assessing response time and performance.
-* regression: Tests to ensure that changes don’t break existing functionality.
-* utils: Utility classes for common reusable methods, listeners and extent report configurations.
+* client: contains class that contains reusable methods.
+* payload: contains class that contains request body that returns in json format.
+* test: contains the API tests
+* resources: contains log4j2 files for logging config and testng runner file to run the tests.
 
 # Prerequisites
 * Java 8 or higher
@@ -59,18 +50,9 @@ You can run the tests using Maven and TestNG.
    
 
 # Test Coverage
-1. Smoke Tests
-* Verifies that crucial API endpoints are functional.
-* Ensures basic GET requests for /entries and /categories work correctly.
-2. Functional Tests
-* Tests specific functionalities of the API.
-* Validates search functionality and the ability to retrieve random API entries.
-3. Performance Tests
-* Assesses the response time for API endpoints.
-* Ensures that the API responds within an acceptable time limit.
-4. Regression Tests
-* Ensures that existing functionalities remain unaffected after changes.
-* Tests for consistency in the API response.
+1. Create Activity: Verifies new activity creation, checks status code 200, title "Fresh Activity," and retrieves ID.
+2. Get Specific Activity: Verifies fetching activity by ID, checks status code 200, title not null, and correct ID.
+3. Get All Activities: Verifies retrieval of all activities, checks status code 200, and confirms list is not empty.
 
 # Tools and Technologies
 * Java: Programming language for writing the tests.
@@ -80,10 +62,10 @@ You can run the tests using Maven and TestNG.
 
 # How to Extend the Tests
 1. Add New Test Cases:
-    * Create a new class under the appropriate package (e.g., functional, regression).
-    * Extend the BaseTest class and write new test methods.
-2. Add New Utilities:
-    * Add common utility methods in TestUtils.java for reuse across different test classes.
+    * Create a new class under the test package .
+    * Extend the TestBase class and write new test methods.
+2. Add New payloads:
+    * Add common payload methods in ApiPayload.java for reusage.
 3. Configure TestNG Suite:
     * Edit testng.xml to add new test classes or groups.
       

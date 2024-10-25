@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210ce77c-a870-468b-9029-174779b607f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-pipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/functional/FunctionalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/performance/PerformanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/regression/RegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/smoke/SmokeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/extentReports/ExtentManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/extentReports/ExtentTestManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/listeners/AnnotationTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/listeners/Retry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/listeners/TestListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG./Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/src/test/resources/testNG.xml.executor": "Run",
-    "TestNG./Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/testNG.xml.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/src/test/java/utils",
-    "onboarding.tips.debug.path": "/Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/src/test/resources/testNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/testNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/src/test/java/utils&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mac/IdeaProjects/YouVerify_API_QA_Accesment/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/utils" />
